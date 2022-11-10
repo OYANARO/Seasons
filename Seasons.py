@@ -1,11 +1,10 @@
 x = int(input())
-if x >= 1 and x <=2:
+if x in range[1, 2, 12]:
     print("Winter")
-elif x >=3 and x<=5:
+elif x in range[3, 4, 5]:
     print("Spring")
-elif x>=6 and x<=8:
+elif x in range[6, 7, 8]:
     print("Summer")
-elif x>=9 and x<=11:
+elif x in range[9, 10, 11]:
     print("осень")
-elif x == 12:
-    print("Winter")
+    
