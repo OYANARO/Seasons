@@ -1,11 +1,11 @@
-x = int(input())
-if x >= 1 and x <=2:
+x = input("Please, enter a month to see the season: \n")
+if x in range(1, 2) or x in ("January", 12, "February", "December"):
     print("Winter")
-elif x >=3 and x<=5:
+elif x in range(3, 5) or x in ("March", "April","May"):
     print("Spring")
-elif x>=6 and x<=8:
+elif x in range(6, 8) or x in ("June", "July","August"):
     print("Summer")
-elif x>=9 and x<=11:
-    print("осень")
-elif x == 12:
-    print("Winter")
+elif x in range(9, 11) or x in ("September", "October","November"):
+    print("Fall")
+else:
+  print("WTF?")
